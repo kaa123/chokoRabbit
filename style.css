@@ -1,0 +1,140 @@
+.background{
+	height: 100%;
+	width: 100%;
+	background-image: url('image/background.JPG');
+}
+h1{
+	font-size: 18pt;
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	text-align: center;
+	color: #D72027;
+}
+h2{
+	font-weight: normal;
+	font-size: 14pt;
+	font-family: 'Comic Sans MS';
+	text-indent: 20px;
+}
+p{
+	font-size: 12pt;
+	font-family: 'Comic Sans MS';
+	text-indent: 20px;
+	text-align: justify;
+}
+p1{
+	text-align: left;
+}
+hr{
+	width: 370px;
+	color: #D72027;
+}
+/*A:link{
+	text-decoration: none;
+	color: #D72027;
+	cursor: pointer;
+}
+A:visited{
+	text-decoration: none;
+	color: #D72027;
+	cursor: pointer;
+}
+A:active{
+	text-decoration: none;
+	color: #D72027;
+	font-size: 14pt;
+	cursor: pointer;
+}
+A:hover{
+	text-decoration: none;
+	color: #D72027;
+	font-size: 14pt;
+	cursor: pointer;
+}*/
+body{
+	font-size: 14pt;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	position: relative;
+	height: 100%;
+}
+.container{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 140px;
+	margin-left: 140px;
+	width: 1006px;
+}
+header{
+	position: relative;
+}
+#inHeader{
+	display: inline-block;
+	width:500px;
+}
+.sidebar{
+	position: absolute;
+	width: 300px;
+}
+.eachSidebar{
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #D72027;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	margin: 20px;
+	padding: 20px;
+	width: 80px;
+	cursor: pointer;
+}
+.content{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-left: 300px;
+	position: absolute;
+	margin-top: 40px;
+	width: 670px;
+	padding:20px;	
+}
+.theMenu{
+	display: none;
+	width: auto;
+	height: auto; 
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #D72027;
+	margin: 20px;
+	padding: 20px;
+
+}
+.gallery a img{    
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transition: all 1.0s ease;
+
+    -moz-opacity: 0.90;
+    opacity: 0.90;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=90);
+    
+    margin-right:5px; 
+    padding:10px;
+    display:inline-block; 
+    height:150px;
+}
+.gallery a img:hover{
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+}
+.gallery a:focus img{
+    position: relative; 
+    height:300px; 
+    cursor: pointer; 
+
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transition: all 1.0s ease;
+}
+.gallery a{
+    outline:0; border:0;
+}
